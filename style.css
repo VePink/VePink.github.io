@@ -1,0 +1,70 @@
+body {
+    font-family: Arial;
+    color: white;
+    background: linear-gradient(90deg, #5071eb 0%, #000851 100%);
+  }
+  
+  .split {
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  .left {
+    left: 0;
+    width: 30%;
+    background-color: rgba(17, 17, 17, 0.479);
+  }
+  
+  .right {
+    right: 0;
+    width: 70%;
+    background-color: rgba(0, 0, 0, 0);
+    overflow: scroll;
+  }
+  
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .centered2 {
+    position: absolute;
+
+    text-align: center;
+  }
+  
+  .centered img {
+    width: 150px;
+    border-radius: 50%;
+  }
+
+  .projects {
+    display: inline-grid;
+    justify-content: space-around;
+    grid-template-columns: repeat(3,25%);
+    margin: 1rem;
+}
+
+
+  .card {
+    box-shadow: 0 .25rem .5rem 0 rgba(0,0,0,.2);
+    padding: 1rem 1.3rem;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.35);
+    border-radius: .42rem;
+    width: 90%;
+    margin: 1rem;
+    transition: all .25s;
+    justify-self: center;
+}
+
+.card:hover {
+    transform: scale(1.25); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
