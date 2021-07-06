@@ -10,59 +10,105 @@
 
 <body>
     <div class="split left">
-        <div class="centered">
-            <img src="images/avatar.jpg" alt="Avatar">
-            <h2>John Doe</h2>
-            <p>Some text.</p>
-            <p class="personIcons">
-                <svg class="lnr lnr-spell-check"><use xlink:href="#lnr-spell-check"></use></svg>
-                <svg class="lnr lnr-code"><use xlink:href="#lnr-code"></use></svg>
-            </p>
-            <div id="myBtnContainer">
-                <button class="btn active" onclick="filterSelection('all')">Show all</button>
-                <button class="button" onclick="filterSelection('cars')">3D</button>
-                <button class="button" onclick="filterSelection('animals')">spatial</button>
-                <button class="button" onclick="filterSelection('fruits')">Fruits</button>
-                <button class="button" onclick="filterSelection('colors')">Colors</button>
-              </div>
+        <div class="top">
+            <div class="centered">
+                <img src="images/avatar.jpg" alt="Avatar">
+                <h2>Vėjas Pinkevičius</h2>
+                <p>I'm data analyst specializing in spatial data</p>
+                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <a href="https://www.linkedin.com/in/vejas-pinkevicius/" target="_blank">
+                        <path class="externalSiteIcon"
+                            d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+                    </a>
+                </svg>
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="centered">
+                <div id="myBtnContainer">
+                    <button class="button active" onclick="filterSelection('all')">all</button>
+                    <button class="button" onclick="filterSelection('spatial')">spatial</button>
+                    <button class="button" onclick="filterSelection('3D')">3D</button>
+                </div>
+            </div>
         </div>
     </div>
 
     <div class="split right">
-
         <section class="projects">
-            <div class="card animals">
-                <h3 class="card-title">AIBE shops geolocator tool</h3>
+            <div class="card spatial">
+                <h3 class="card-title">AIBĖ shops geolocator tool</h3>
                 <img class="projectImage" src="images/ProjectCovers/P1.jpg">
-                <p class="card-description">Python tool for getting geographic locations of "AIBE" shops from website and saving dataset as KML file for later use in variuos geospatial analysis software.
+                <p class="card-description">Python tool for getting geographic locations of "AIBĖ" shops from website and saving dataset as KML file for later use in variuos geospatial analysis software.
                 </p>
                 <a href="https://github.com/VePink/AIBE-shops-geolocator" target="_blank" class="button">code</a>
                 <a href="https://www.google.com/maps/d/u/0/edit?mid=13dv0eCU8ZyFwp401rTwOxJIiNWV0-PsT&usp=sharing" target="_blank" class="button">result</a>
             </div>
-            <div class="card colors">
+            <div class="card spatial">
                 <h3 class="card-title">KOOPS shops geolocator tool</h3>
                 <img class="projectImage" src="images/ProjectCovers/P1.jpg">
-                <p class="card-description">Project description about it Project description about it
+                <p class="card-description">Python tool for getting geographic locations of "KOOPS" shops from website and saving dataset as KML file for later use in variuos geospatial analysis software.
                 </p>
-                <a href="https://github.com/VePink/AIBE-shops-geolocator" target="_blank" class="button">code</a>
-                <a href="https://www.google.com/maps/d/u/0/edit?mid=13dv0eCU8ZyFwp401rTwOxJIiNWV0-PsT&usp=sharing" target="_blank" class="button">result</a>
+                <a href="https://github.com/VePink/KOOPS-shops-geolocator" target="_blank" class="button">code</a>
+                <a href="" target="_blank" class="button">result</a>
             </div>
-            <div class="card">
+            <div class="card spatial">
                 <h3 class="card-title">TAU-Elimart shops geolocator tool</h3>
                 <img class="projectImage" src="images/ProjectCovers/P1.jpg">
-                <p class="card-description">Project description about it Project description about it
+                <p class="card-description">Python tool for getting geographic locations of "TAU" and "Elimart" shops from website and saving dataset as KML file for later use in variuos geospatial analysis software.
                 </p>
-                <a href="https://github.com/VePink/AIBE-shops-geolocator" target="_blank" class="button">code</a>
-                <a href="https://www.google.com/maps/d/u/0/edit?mid=13dv0eCU8ZyFwp401rTwOxJIiNWV0-PsT&usp=sharing" target="_blank" class="button">result</a>
+                <a href="https://github.com/VePink/TAU-Elimart-shops-geolocator" target="_blank" class="button">code</a>
+                <a href="" target="_blank" class="button">result</a>
             </div>
-            <div class="card">
+            <div class="card spatial 3D">
                 <h3 class="card-title">REFRAME</h3>
                 <img class="projectImage" src="images/ProjectCovers/P1.jpg">
                 <p class="card-description">Project description about it Project description about it
                 </p>
-                <a href="https://github.com/VePink/AIBE-shops-geolocator" target="_blank" class="button">code</a>
-                <a href="https://www.google.com/maps/d/u/0/edit?mid=13dv0eCU8ZyFwp401rTwOxJIiNWV0-PsT&usp=sharing" target="_blank" class="button">result</a>
+                <a href="https://github.com/VePink/REFRAME" target="_blank" class="button">code</a>
+                <a href="" target="_blank" class="button">demo</a>
             </div>
+            <div class="card spatial 3D">
+                <h3 class="card-title">PLACEHOLDER</h3>
+                <img class="projectImage" src="images/ProjectCovers/P1.jpg">
+                <p class="card-description">Project description about it Project description about it
+                </p>
+                <a href="" target="_blank" class="button">code</a>
+                <a href="" target="_blank" class="button">demo</a>
+            </div>
+            <div class="card spatial 3D">
+                <h3 class="card-title">PLACEHOLDER</h3>
+                <img class="projectImage" src="images/ProjectCovers/P1.jpg">
+                <p class="card-description">Project description about it Project description about it
+                </p>
+                <a href="" target="_blank" class="button">code</a>
+                <a href="" target="_blank" class="button">demo</a>
+            </div>
+            <div class="card spatial 3D">
+                <h3 class="card-title">PLACEHOLDER</h3>
+                <img class="projectImage" src="images/ProjectCovers/P1.jpg">
+                <p class="card-description">Project description about it Project description about it
+                </p>
+                <a href="" target="_blank" class="button">code</a>
+                <a href="" target="_blank" class="button">demo</a>
+            </div>
+            <div class="card spatial 3D">
+                <h3 class="card-title">PLACEHOLDER</h3>
+                <img class="projectImage" src="images/ProjectCovers/P1.jpg">
+                <p class="card-description">Project description about it Project description about it
+                </p>
+                <a href="" target="_blank" class="button">code</a>
+                <a href="" target="_blank" class="button">demo</a>
+            </div>
+            <div class="card spatial 3D">
+                <h3 class="card-title">PLACEHOLDER</h3>
+                <img class="projectImage" src="images/ProjectCovers/P1.jpg">
+                <p class="card-description">Project description about it Project description about it
+                </p>
+                <a href="" target="_blank" class="button">code</a>
+                <a href="" target="_blank" class="button">demo</a>
+            </div>
+            
     </div>
     </section>
     <script type="text/javascript" src="main.js"></script>
