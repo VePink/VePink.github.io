@@ -4,12 +4,11 @@ body {
     background: linear-gradient(20deg, #5071eb 0%, #000851 100%);
     width: 100vw;
     overflow-y: scroll;
-    overflow-x: hidden;
 }
 
 
 .split {
-  position: absolute;
+    position: relative;
     z-index: 1;
     top: 10;
 }
@@ -24,6 +23,7 @@ body {
 }
   
 .right {
+  top: 0;
     left: 25vw;
     width: 72vw;
     background-color: rgba(0, 0, 0, 0.1);
@@ -64,9 +64,9 @@ body {
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
     -moz-filter: grayscale(100%);
-    transition: all 1s;
-    -webkit-transition: all 1s;
-    -moz-transition: all 1s;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
 }
 
 .projects {
@@ -85,14 +85,14 @@ body {
     background: linear-gradient(20deg, #00000018 0%, #000000a1 100%);
     border-radius: 1rem;
     margin: 1rem;
-    transition: 1s;
+    transition: 2s;
     justify-self: center;
     display: none;
 }
 
 
 .card:hover {
-    transition: 1s;
+    transition: 2s;
     transform: scale(1.025);
     background-color: #9da7b34f;
     transition: background-color 1000ms linear;
@@ -181,4 +181,10 @@ svg {
 .card-title svg {
   width: 25px;
   height: 25px;
+}
+
+/*------------------ MOBILE ---------------------*/
+
+@media only screen and (max-width: 600px) {
+
 }
