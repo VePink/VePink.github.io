@@ -5,46 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Comfortaa&display=swap" rel="stylesheet">
-    <script src="https://cdn.linearicons.com/free/1.0.0/svgembedder.min.js"></script>
 </head>
 
 <body>
-    <div class="split left">
-        <div class="top">
-            <div class="centered">
-                <div class="aboutMe">
-                    <img src="images/avatar.jpg" alt="Avatar">
-                    <h2>Vėjas Pinkevičius</h2>
-                    <p>analyst specializing in spatial data</p>
-                    <a href="https://www.linkedin.com/in/vejas-pinkevicius/" target="_blank">
-                        <svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#LinkedInIcon"></use></svg>
-                    </a>
-                </div>
-            </div>
+    <div class="banner">
+        <div class="emptyPlaceholder"></div>
+        <div class="aboutMe">
+            <img id="avatar" src="images/avatar.jpg" alt="Avatar">
+            <h2>Vėjas Pinkevičius</h2>
+            <p>analyst specializing in spatial data</p>
+            <!--
+            <a href="https://www.linkedin.com/in/vejas-pinkevicius/" target="_blank">
+                <svg>
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#LinkedInIcon"></use>
+                </svg>
+            </a>
+            -->
         </div>
-        <div class="bottom">
-            <div class="centered">
-                <div id="myBtnContainer">
-                    <button class="button active" onclick="filterSelection('all')">all</button>
-                    <button class="button" onclick="filterSelection('spatial')">spatial</button>
-                    <button class="button" onclick="filterSelection('ETL')">ETL</button>
-                    <button class="button" onclick="filterSelection('3D')">3D</button>
-                </div>
-                <div id="author">
-                </div>
-            </div>
-        </div>
+        <div class="filter">
+            <button class="button active" onclick="filterSelection('all')">all</button>
+            <button class="button" onclick="filterSelection('spatial')">spatial</button>
+            <button class="button" onclick="filterSelection('ETL')">ETL</button>
+            <button class="button" onclick="filterSelection('3D')">3D</button>
+        </div>   
     </div>
-
-    <div class="split right">
+    <div class="gallery">
         <section class="projects">
             <div class="card spatial">
                 <h3 class="card-title">
                     <svg>
-                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#PythonIcon"></use>
+                        <use xlink:href="#PythonIcon"></use>
                     </svg>
                     <svg>
-                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#ToolIcon"></use>
+                        <use xlink:href="#ToolIcon"></use>
                     </svg>
                     "AIBĖ" shops geolocator
                 </h3>
@@ -55,29 +48,29 @@
                 <a href="https://github.com/VePink/AIBE-shops-geolocator" target="_blank" class="button">
                     source
                     <svg>
-                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#GitHubIcon"></use>
+                        <use xlink:href="#GitHubIcon"></use>
                     </svg>
                     </a>
                 <a href="https://github.com/VePink/AIBE-shops-geolocator/tree/main/Output" target="_blank" class="button">
                     result
                     <svg>
-                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#KMLIcon"></use>
+                        <use xlink:href="#KMLIcon"></use>
                     </svg>
                 </a>
                 <a href="https://www.google.com/maps/d/u/0/edit?mid=13dv0eCU8ZyFwp401rTwOxJIiNWV0-PsT&ll=55.31339345205751%2C24.272907797056945&z=8" target="_blank" class="button">
                     result
                     <svg>
-                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#MapIcon"></use>
+                        <use xlink:href="#MapIcon"></use>
                     </svg>
                 </a>
             </div>
             <div class="card spatial">
                 <h3 class="card-title">
                     <svg>
-                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#PythonIcon"></use>
+                        <use xlink:href="#PythonIcon"></use>
                     </svg>
                     <svg>
-                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#ToolIcon"></use>
+                        <use xlink:href="#ToolIcon"></use>
                     </svg>
                     "KOOPS" shops geolocator
                 </h3>
@@ -88,29 +81,29 @@
                 <a href="https://github.com/VePink/KOOPS-shops-geolocator" target="_blank" class="button">
                     source
                     <svg>
-                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#GitHubIcon"></use>
+                        <use xlink:href="#GitHubIcon"></use>
                     </svg>
                     </a>
                 <a href="https://github.com/VePink/KOOPS-shops-geolocator/tree/main/Output" target="_blank" class="button">
                     result
                     <svg>
-                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#KMLIcon"></use>
+                        <use xlink:href="#KMLIcon"></use>
                     </svg>
                 </a>
                 <a href="https://www.google.com/maps/d/u/0/edit?mid=1mWjsV3jWCWRSo7HA_T_1nsaF4P7B7VNb&ll=54.79256945260789%2C25.31147099999999&z=9" target="_blank" class="button">
                     result
                     <svg>
-                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#MapIcon"></use>
+                        <use xlink:href="#MapIcon"></use>
                     </svg>
                 </a>
             </div>
             <div class="card spatial">
                 <h3 class="card-title">
                     <svg>
-                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#PythonIcon"></use>
+                        <use xlink:href="#PythonIcon"></use>
                     </svg>
                     <svg>
-                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#ToolIcon"></use>
+                        <use xlink:href="#ToolIcon"></use>
                     </svg>
                     Placeholder
                 </h3>
@@ -120,25 +113,57 @@
                 <a href="https://github.com/VePink/KOOPS-shops-geolocator" target="_blank" class="button">
                     source
                     <svg>
-                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#GitHubIcon"></use>
+                        <use xlink:href="#GitHubIcon"></use>
                     </svg>
                     </a>
                 <a href="https://github.com/VePink/KOOPS-shops-geolocator/tree/main/Output" target="_blank" class="button">
                     result
                     <svg>
-                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#KMLIcon"></use>
+                        <use xlink:href="#KMLIcon"></use>
                     </svg>
                 </a>
                 <a href="https://www.google.com/maps/d/u/0/edit?mid=1mWjsV3jWCWRSo7HA_T_1nsaF4P7B7VNb&ll=54.79256945260789%2C25.31147099999999&z=9" target="_blank" class="button">
                     result
                     <svg>
-                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#MapIcon"></use>
+                        <use xlink:href="#MapIcon"></use>
+                    </svg>
+                </a>
+            </div>
+            <div class="card spatial">
+                <h3 class="card-title">
+                    <svg>
+                        <use xlink:href="#PythonIcon"></use>
+                    </svg>
+                    <svg>
+                        <use xlink:href="#ToolIcon"></use>
+                    </svg>
+                    Placeholder
+                </h3>
+                <img class="projectImage" src="images/ProjectCovers/P1.jpg">
+                <p class="card-description">Placeholder placeholder placeholder placeholder placeholder
+                </p>
+                <a href="https://github.com/VePink/KOOPS-shops-geolocator" target="_blank" class="button">
+                    source
+                    <svg>
+                        <use xlink:href="#GitHubIcon"></use>
+                    </svg>
+                    </a>
+                <a href="https://github.com/VePink/KOOPS-shops-geolocator/tree/main/Output" target="_blank" class="button">
+                    result
+                    <svg>
+                        <use xlink:href="#KMLIcon"></use>
+                    </svg>
+                </a>
+                <a href="https://www.google.com/maps/d/u/0/edit?mid=1mWjsV3jWCWRSo7HA_T_1nsaF4P7B7VNb&ll=54.79256945260789%2C25.31147099999999&z=9" target="_blank" class="button">
+                    result
+                    <svg>
+                        <use xlink:href="#MapIcon"></use>
                     </svg>
                 </a>
             </div>
         </section>
-
-    <!-- define SVGs -->
+    </div>
+<!-- define SVGs -->
 <div style="visibility: hidden; position: absolute; width: 0px; height: 0px;">
     <svg id="LinkedInIcon" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
         xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 310 310" style="enable-background:new 0 0 310 310;"
