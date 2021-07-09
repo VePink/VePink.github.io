@@ -1,2 +1,4 @@
 # VePink.github.io
- Portfolio
+Personal website.
+Purpose: portfolio and hub of created tools / demos / datasets
+Created (idea, design, code) by: Vėjas Pinkevičius
