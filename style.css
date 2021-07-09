@@ -33,11 +33,7 @@ body {
   border-radius: 1rem;
 }
 
-p {
-  text-align: center;
-}
-
-h2 {
+h1, h2, h3, p {
   text-align: center;
 }
 
@@ -95,7 +91,7 @@ h2 {
   
 #avatar {
     margin-top: 2vh;
-    width: 40%;
+    width: 60%;
     border-radius: 50%;
     box-shadow: 0 .25rem .5rem 0 rgba(0,0,0,.3);
     margin-left: auto;
@@ -127,7 +123,7 @@ h2 {
 .card:hover {
     /*transition: 2s;*/
     transform: scale(1.025);
-    background-color: #9da7b34f;
+    background-color: #00000000;
     /*transition: background-color 1000ms linear;*/
 }
 
@@ -220,7 +216,7 @@ svg {
     /*transform: translateY(-15%);*/
     margin-top: -4vh;
     width: 45%;
-}
+  }
 
   .gallery {
     flex: 1;
