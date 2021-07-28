@@ -1,0 +1,20 @@
+{
+    "projects": [
+        {
+            "title": "REFRAME",
+			"tags": ["Ford", "BMW", "Fiat"],
+            "thumbnails": [
+                {
+                    "0": "a"
+                }
+            ],
+            "thumbnailOnClickURL": "https://vepink.github.io/REFRAME/",
+            "description": "Geographic data oriented 3D viewer for sharing digital copies of locations. Based on Cesium JS library.",
+            "icons": [
+                {
+                    "0": "a"
+                }
+            ]
+        }
+    ]
+}
