@@ -30,9 +30,13 @@ function appendData(projectList) {
                 <use xlink:href=`+ projectList[i].projectIcon +`></use>
             </svg>
         </h3>
+        
+        <li class="tagList"><a href="#">`+ projectList[i].tagList + `</a></li>
+        
         <img class="projectImage" src="https://raw.githubusercontent.com/VePink/`+ projectList[i].GithubId +`/main/images/thumbnail.png" 
             onclick="location.href='`+ onImageClickOpenURL +`';" style="cursor: pointer;">
         <p class="card-description">`+ projectList[i].description +`</p>
+        
         <div id= "sourceCodeResultPlaceholder"></div>
         <div id= "resultToolPlaceholder"></div>
         <div id= "resultDatasetPlaceholder"></div>

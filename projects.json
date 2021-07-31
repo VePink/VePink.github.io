@@ -8,7 +8,8 @@
         "sourceCodeLanguage": "JS",
         "resultEXEToolName": "",
         "resultDatasetExtension": "",
-        "resultWebsiteURL": "https://vepink.github.io/REFRAME/"
+        "resultWebsiteURL": "https://vepink.github.io/REFRAME/",
+        "tagList": ["3D", "website", "spatial", "REFRAME", "Cesium", "JS", "web", "app", "Javascript"]
     },
     {
         "GithubId": "BetaMapsLt-route-saver",
@@ -19,7 +20,8 @@
         "sourceCodeLanguage": "PY",
         "resultEXEToolName": "BetaMapsLt-route-saver",
         "resultDatasetExtension": "",
-        "resultWebsiteURL": ""
+        "resultWebsiteURL": "",
+        "tagList": ["python", "tool", "spatial", "Maps.lt", "beta", "route", "Selenium", "geocoding", "KML","dataset", "EXE", "executable"]
     },
     {
         "GithubId": "Baltic-Petroleum-gas-stations-geolocator",
@@ -30,7 +32,8 @@
         "sourceCodeLanguage": "PY",
         "resultEXEToolName": "BP_to_KML",
         "resultDatasetExtension": "KML",
-        "resultWebsiteURL": ""
+        "resultWebsiteURL": "",
+        "tagList": ["python", "tool", "spatial", "scraper", "Baltic", "Petroleum", "BP","geocoding", "KML","dataset", "EXE", "executable"]
     },
     {
         "GithubId": "IKI-shops-geolocator",
@@ -41,7 +44,8 @@
         "sourceCodeLanguage": "PY",
         "resultEXEToolName": "IKI_to_KML",
         "resultDatasetExtension": "KML",
-        "resultWebsiteURL": ""
+        "resultWebsiteURL": "",
+        "tagList": ["python", "tool", "spatial", "scraper", "IKI", "geocoding", "KML", "dataset", "EXE", "executable"]
     },
     {
         "GithubId": "AIBE-shops-geolocator",
@@ -52,7 +56,8 @@
         "sourceCodeLanguage": "PY",
         "resultEXEToolName": "",
         "resultDatasetExtension": "KML",
-        "resultWebsiteURL": ""
+        "resultWebsiteURL": "",
+        "tagList": ["python", "tool", "spatial", "scraper", "AIBE", "Aibė", "geocoding", "KML","dataset"]
     },
     {
         "GithubId": "KOOPS-shops-geolocator",
@@ -63,7 +68,8 @@
         "sourceCodeLanguage": "PY",
         "resultEXEToolName": "KOOPS_to_KML",
         "resultDatasetExtension": "KML",
-        "resultWebsiteURL": ""
+        "resultWebsiteURL": "",
+        "tagList": ["python", "tool", "spatial", "scraper", "KOOPS", "geocoding", "KML","dataset", "EXE", "executable"]
     },
     {
         "GithubId": "TAU-Elimart-shops-geolocator",
@@ -74,6 +80,7 @@
         "sourceCodeLanguage": "PY",
         "resultEXEToolName": "",
         "resultDatasetExtension": "KML",
-        "resultWebsiteURL": ""
+        "resultWebsiteURL": "",
+        "tagList": ["python", "tool", "spatial", "scraper", "geocoding", "KML","dataset", "TAU", "Elimart"]
     }
 ]

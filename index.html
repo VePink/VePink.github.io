@@ -15,7 +15,7 @@
         gtag('config', 'G-4W6M6N2L20');
     </script>
     <script type="text/javascript" src="gallery_populator.js"></script>
-    <script type="text/javascript" src="gallery_filter.js"></script>
+    <script type="text/javascript" src="tagSearcher.js"></script>
 </head>
 
 <body>
@@ -41,15 +41,11 @@
                     <use xlink:href="#SketchfabIcon"></use>
                 </svg>
             </a>
+            <p></p>
+            <div id="searchBarContainer">
+                <input type="text" id="searchBar" onkeyup="searchTags()" placeholder="Search projects ...">
+            </div>
         </div>
-        <div id="filter" class="filter">
-            <!--
-            <button class="button active" onclick="filterSelection('all')">all</button>
-            <button class="button" onclick="filterSelection('spatial')">spatial</button>
-            <button class="button" onclick="filterSelection('ETL')">ETL</button>
-            <button class="button" onclick="filterSelection('3D')">3D</button>
-            -->
-        </div> 
     </div>
     <div class="gallery">
         <section class="projects" id="projects">
@@ -132,5 +128,4 @@
     </svg>
 </div>
 </body>
-
 </html>
