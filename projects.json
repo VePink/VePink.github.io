@@ -54,7 +54,7 @@
         "description": "Python tool that gets geographic locations and properties of 'AIBĖ' shops from website and saves them as KML dataset.",
         "onImageClickOpenURL": "",
         "sourceCodeLanguage": "PY",
-        "resultEXEToolName": "",
+        "resultEXEToolName": "AIBE_to_KML",
         "resultDatasetExtension": "KML",
         "resultWebsiteURL": "",
         "tagList": ["python", "tool", "spatial", "scraper", "AIBE", "Aibė", "geocoding", "KML","dataset"]
