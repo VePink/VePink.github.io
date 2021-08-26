@@ -67,7 +67,7 @@
         "onImageClickOpenURL": "",
         "sourceCodeLanguage": "PY",
         "resultEXEToolName": "shops-AIBE-to-KMZ",
-        "resultDatasetExtension": "KMZ",
+        "resultDatasetExtension": "KML",
         "resultWebsiteURL": "",
         "tagList": ["python", "tool", "spatial", "scraper", "AIBE", "Aibė", "geocoding", "KML", "KMZ", "ZIP","dataset"]
     },
