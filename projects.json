@@ -9,7 +9,7 @@
         "resultEXEToolName": "",
         "resultDatasetExtension": "",
         "resultWebsiteURL": "https://vepink.github.io/REFRAME/",
-        "tagList": ["3D", "website", "spatial", "REFRAME", "Cesium", "JS", "web", "app", "Javascript"]
+        "tagList": ["3D","website","spatial","REFRAME","Cesium","JS","web","app","Javascript"]
     },
     {
         "GithubId": "BetaMapsLt-route-saver",
@@ -21,31 +21,19 @@
         "resultEXEToolName": "BetaMapsLt-route-saver",
         "resultDatasetExtension": "",
         "resultWebsiteURL": "",
-        "tagList": ["python", "tool", "spatial", "Maps.lt", "beta", "route", "Selenium", "geocoding", "KML","dataset", "EXE", "executable"]
+        "tagList": ["python","tool","spatial","Maps.lt","beta","route","Selenium","geocoding","KML","dataset","EXE","executable"]
     },
     {
-        "GithubId": "Baltic-Petroleum-gas-stations-geolocator",
-        "title": "'Baltic Petroleum' geolocator",
+        "GithubId": "compare-activity-timelines-gpx",
+        "title": "Compare activity timelines (.gpx)",
         "projectIcon": "#ToolIcon",
-        "description": "Tool for getting geographic locations of 'Baltic Petroleum' gas stations and shops from official website and saving dataset as KML file for later use.",
+        "description": "Import .gpx, structurize, plot and analyze GPS logs, compare activity metrics.",
         "onImageClickOpenURL": "",
         "sourceCodeLanguage": "PY",
-        "resultEXEToolName": "BP_to_KML",
-        "resultDatasetExtension": "KML",
+        "resultEXEToolName": "",
+        "resultDatasetExtension": "",
         "resultWebsiteURL": "",
-        "tagList": ["python", "tool", "spatial", "scraper", "Baltic", "Petroleum", "BP","geocoding", "KML","dataset", "EXE", "executable"]
-    },
-    {
-        "GithubId": "IKI-shops-geolocator",
-        "title": "'IKI' shops geolocator",
-        "projectIcon": "#ToolIcon",
-        "description": "Python tool that gets geographic locations and properties of 'IKI' shops from website and saves them as KML dataset.",
-        "onImageClickOpenURL": "",
-        "sourceCodeLanguage": "PY",
-        "resultEXEToolName": "IKI_to_KML",
-        "resultDatasetExtension": "KML",
-        "resultWebsiteURL": "",
-        "tagList": ["python", "tool", "spatial", "scraper", "IKI", "geocoding", "KML", "dataset", "EXE", "executable"]
+        "tagList": ["python","tool","spatial","gpx","GPS","activity","track","log","tracking","plot","pandas","numpy","dataframe","matplotlib","pyplot"]
     },
     {
         "GithubId": "shops-AIBE-to-KMZ",
@@ -57,7 +45,31 @@
         "resultEXEToolName": "shops-AIBE-to-KMZ",
         "resultDatasetExtension": "KML",
         "resultWebsiteURL": "",
-        "tagList": ["python", "tool", "spatial", "scraper", "AIBE", "Aibė", "geocoding", "KML", "KMZ", "ZIP","dataset"]
+        "tagList": ["python","tool","spatial","scraper","AIBE","Aibė","geocoding","KML","KMZ","ZIP","dataset"]
+    },
+    {
+        "GithubId": "Baltic-Petroleum-gas-stations-geolocator",
+        "title": "'Baltic Petroleum' geolocator",
+        "projectIcon": "#ToolIcon",
+        "description": "Tool for getting geographic locations of 'Baltic Petroleum' gas stations and shops from official website and saving dataset as KML file for later use.",
+        "onImageClickOpenURL": "",
+        "sourceCodeLanguage": "PY",
+        "resultEXEToolName": "BP_to_KML",
+        "resultDatasetExtension": "KML",
+        "resultWebsiteURL": "",
+        "tagList": ["python","tool","spatial","scraper","Baltic","Petroleum","BP","geocoding","KML","dataset","EXE","executable"]
+    },
+    {
+        "GithubId": "IKI-shops-geolocator",
+        "title": "'IKI' shops geolocator",
+        "projectIcon": "#ToolIcon",
+        "description": "Python tool that gets geographic locations and properties of 'IKI' shops from website and saves them as KML dataset.",
+        "onImageClickOpenURL": "",
+        "sourceCodeLanguage": "PY",
+        "resultEXEToolName": "IKI_to_KML",
+        "resultDatasetExtension": "KML",
+        "resultWebsiteURL": "",
+        "tagList": ["python","tool","spatial","scraper","IKI","geocoding","KML","dataset","EXE","executable"]
     },
     {
         "GithubId": "KOOPS-shops-geolocator",
@@ -69,7 +81,7 @@
         "resultEXEToolName": "KOOPS_to_KML",
         "resultDatasetExtension": "KML",
         "resultWebsiteURL": "",
-        "tagList": ["python", "tool", "spatial", "scraper", "KOOPS", "geocoding", "KML","dataset", "EXE", "executable"]
+        "tagList": ["python","tool","spatial","scraper","KOOPS","geocoding","KML","dataset","EXE","executable"]
     },
     {
         "GithubId": "TAU-Elimart-shops-geolocator",
@@ -81,6 +93,6 @@
         "resultEXEToolName": "TAU_Elimart_to_KML",
         "resultDatasetExtension": "KML",
         "resultWebsiteURL": "",
-        "tagList": ["python", "tool", "spatial", "scraper", "geocoding", "KML","dataset", "TAU", "Elimart"]
+        "tagList": ["python","tool","spatial","scraper","geocoding","KML","dataset","TAU","Elimart"]
     }
 ]
