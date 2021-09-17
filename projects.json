@@ -28,12 +28,12 @@
         "title": "Compare activity timelines (.gpx)",
         "projectIcon": "#ToolIcon",
         "description": "Import .gpx, structurize, plot and analyze GPS logs, compare activity metrics.",
-        "onImageClickOpenURL": "",
+        "onImageClickOpenURL": "https://vepink.github.io/compare-activity-timelines-gpx/",
         "sourceCodeLanguage": "PY",
         "resultEXEToolName": "",
         "resultDatasetExtension": "",
-        "resultWebsiteURL": "",
-        "tagList": ["python","tool","spatial","gpx","GPS","activity","track","log","tracking","plot","pandas","numpy","dataframe","matplotlib","pyplot"]
+        "resultWebsiteURL": "https://vepink.github.io/compare-activity-timelines-gpx/",
+        "tagList": ["python","tool","spatial","gpx","GPS","activity","track","log","tracking","plot","pandas","numpy","dataframe","matplotlib","pyplot","plotly","Cufflinks","analysis","plot"]
     },
     {
         "GithubId": "shops-AIBE-to-KMZ",
