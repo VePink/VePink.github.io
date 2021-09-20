@@ -42,7 +42,7 @@
         "description": "Python tool that gets geographic locations and properties of 'AIBĖ' shops from website and saves them as KML dataset.",
         "onImageClickOpenURL": "",
         "sourceCodeLanguage": "PY",
-        "resultEXEToolName": "shops-AIBE-to-KMZ",
+        "resultEXEToolName": "",
         "resultDatasetExtension": "KML",
         "resultWebsiteURL": "",
         "tagList": ["python","tool","spatial","scraper","AIBE","Aibė","geocoding","KML","KMZ","ZIP","dataset"]
@@ -54,10 +54,10 @@
         "description": "Tool for getting geographic locations of 'Baltic Petroleum' gas stations and shops from official website and saving dataset as KML file for later use.",
         "onImageClickOpenURL": "",
         "sourceCodeLanguage": "PY",
-        "resultEXEToolName": "BP_to_KML",
+        "resultEXEToolName": "",
         "resultDatasetExtension": "KML",
         "resultWebsiteURL": "",
-        "tagList": ["python","tool","spatial","scraper","Baltic","Petroleum","BP","geocoding","KML","dataset","EXE","executable"]
+        "tagList": ["python","tool","spatial","scraper","Baltic","Petroleum","BP","geocoding","KML","dataset"]
     },
     {
         "GithubId": "IKI-shops-geolocator",
@@ -66,10 +66,10 @@
         "description": "Python tool that gets geographic locations and properties of 'IKI' shops from website and saves them as KML dataset.",
         "onImageClickOpenURL": "",
         "sourceCodeLanguage": "PY",
-        "resultEXEToolName": "IKI_to_KML",
+        "resultEXEToolName": "",
         "resultDatasetExtension": "KML",
         "resultWebsiteURL": "",
-        "tagList": ["python","tool","spatial","scraper","IKI","geocoding","KML","dataset","EXE","executable"]
+        "tagList": ["python","tool","spatial","scraper","IKI","geocoding","KML","dataset"]
     },
     {
         "GithubId": "KOOPS-shops-geolocator",
@@ -78,10 +78,10 @@
         "description": "Python tool that gets geographic locations and properties of 'KOOPS' shops from website and saves them as KML dataset.",
         "onImageClickOpenURL": "",
         "sourceCodeLanguage": "PY",
-        "resultEXEToolName": "KOOPS_to_KML",
+        "resultEXEToolName": "",
         "resultDatasetExtension": "KML",
         "resultWebsiteURL": "",
-        "tagList": ["python","tool","spatial","scraper","KOOPS","geocoding","KML","dataset","EXE","executable"]
+        "tagList": ["python","tool","spatial","scraper","KOOPS","geocoding","KML","dataset"]
     },
     {
         "GithubId": "TAU-Elimart-shops-geolocator",
@@ -90,7 +90,7 @@
         "description": "Python tool that gets geographic locations and properties of 'Elimart'/'TAU' shops from website and saves them as KML file for later spatial analysis.",
         "onImageClickOpenURL": "",
         "sourceCodeLanguage": "PY",
-        "resultEXEToolName": "TAU_Elimart_to_KML",
+        "resultEXEToolName": "",
         "resultDatasetExtension": "KML",
         "resultWebsiteURL": "",
         "tagList": ["python","tool","spatial","scraper","geocoding","KML","dataset","TAU","Elimart"]
