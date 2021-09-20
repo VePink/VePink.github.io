@@ -60,10 +60,10 @@
         "tagList": ["python","tool","spatial","scraper","Baltic","Petroleum","BP","geocoding","KML","dataset"]
     },
     {
-        "GithubId": "IKI-shops-geolocator",
-        "title": "'IKI' shops geolocator",
+        "GithubId": "shops-IKI-to-KMZ",
+        "title": "shops 'IKI' to KMZ dataset",
         "projectIcon": "#ToolIcon",
-        "description": "Python tool that gets geographic locations and properties of 'IKI' shops from website and saves them as KML dataset.",
+        "description": "Python tool that gets geographic locations and properties of 'IKI' shops from website and saves them as KMZ dataset.",
         "onImageClickOpenURL": "",
         "sourceCodeLanguage": "PY",
         "resultEXEToolName": "",
