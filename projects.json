@@ -48,8 +48,8 @@
         "tagList": ["python","tool","spatial","scraper","AIBE","Aibė","geocoding","KML","KMZ","ZIP","dataset"]
     },
     {
-        "GithubId": "Baltic-Petroleum-gas-stations-geolocator",
-        "title": "'Baltic Petroleum' geolocator",
+        "GithubId": "shops-BP-to-KMZ",
+        "title": "'Baltic Petroleum' shops geolocator",
         "projectIcon": "#ToolIcon",
         "description": "Tool for getting geographic locations of 'Baltic Petroleum' gas stations and shops from official website and saving dataset as KML file for later use.",
         "onImageClickOpenURL": "",
