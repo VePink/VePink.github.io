@@ -24,6 +24,18 @@
         "tagList": ["python","tool","spatial","Maps.lt","beta","route","Selenium","geocoding","KML","dataset","EXE","executable"]
     },
     {
+        "GithubId": "eismoinfo-weather",
+        "title": "EismoInfo weather scraper and visualizer",
+        "projectIcon": "#ToolIcon",
+        "description": "Scrape automated weather station data, structurize it as Pandas dataframe, plot as map and analyze using Plotly",
+        "onImageClickOpenURL": "https://vepink.github.io/eismoinfo-weather/",
+        "sourceCodeLanguage": "PY",
+        "resultEXEToolName": "",
+        "resultDatasetExtension": "",
+        "resultWebsiteURL": "https://vepink.github.io/eismoinfo-weather/",
+        "tagList": ["python","tool","spatial","weather","meteo","logger","eismoinfo","eismo","info","station","log","dataframe","pandas","plotly","plot","map","surface","contour","temperature","wind","interactive"]
+    },
+    {
         "GithubId": "compare-activity-timelines-gpx",
         "title": "Compare activity timelines (.gpx)",
         "projectIcon": "#ToolIcon",
@@ -33,7 +45,7 @@
         "resultEXEToolName": "",
         "resultDatasetExtension": "",
         "resultWebsiteURL": "https://vepink.github.io/compare-activity-timelines-gpx/",
-        "tagList": ["python","tool","spatial","gpx","GPS","activity","track","log","tracking","plot","pandas","numpy","dataframe","matplotlib","pyplot","plotly","Cufflinks","analysis","plot"]
+        "tagList": ["python","tool","spatial","gpx","GPS","activity","track","log","tracking","plot","pandas","dataframe","matplotlib","pyplot","plotly","Cufflinks","analysis","interactive"]
     },
     {
         "GithubId": "shops-AIBE-to-KMZ",
