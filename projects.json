@@ -36,15 +36,15 @@
         "tagList": ["python","tool","spatial","weather","meteo","logger","eismoinfo","eismo","info","station","log","dataframe","pandas","plotly","plot","map","surface","contour","temperature","wind","interactive"]
     },
     {
-        "GithubId": "compare-activity-timelines-gpx",
+        "GithubId": "gpx-compare",
         "title": "Compare activity timelines (.gpx)",
         "projectIcon": "#ToolIcon",
         "description": "Import .gpx, structurize, plot and analyze GPS logs, compare activity metrics.",
-        "onImageClickOpenURL": "https://vepink.github.io/compare-activity-timelines-gpx/",
+        "onImageClickOpenURL": "https://vepink.github.io/gpx-compare/",
         "sourceCodeLanguage": "PY",
         "resultEXEToolName": "",
         "resultDatasetExtension": "",
-        "resultWebsiteURL": "https://vepink.github.io/compare-activity-timelines-gpx/",
+        "resultWebsiteURL": "https://vepink.github.io/gpx-compare/",
         "tagList": ["python","tool","spatial","gpx","GPS","activity","track","log","tracking","plot","pandas","dataframe","matplotlib","pyplot","plotly","Cufflinks","analysis","interactive"]
     },
     {
