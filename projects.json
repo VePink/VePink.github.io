@@ -82,17 +82,5 @@
         "resultDatasetExtension": "KML",
         "resultWebsiteURL": "",
         "tagList": ["python","tool","spatial","scraper","IKI","geocoding","KML","dataset"]
-    },
-    {
-        "GithubId": "TAU-Elimart-shops-geolocator",
-        "title": "'Elimart'/'TAU' shops geolocator",
-        "projectIcon": "#ToolIcon",
-        "description": "Python tool that gets geographic locations and properties of 'Elimart'/'TAU' shops from website and saves them as KML file for later spatial analysis.",
-        "onImageClickOpenURL": "",
-        "sourceCodeLanguage": "PY",
-        "resultEXEToolName": "",
-        "resultDatasetExtension": "KML",
-        "resultWebsiteURL": "",
-        "tagList": ["python","tool","spatial","scraper","geocoding","KML","dataset","TAU","Elimart"]
     }
 ]
