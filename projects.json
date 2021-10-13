@@ -25,15 +25,15 @@
     },
     {
         "GithubId": "eismoinfo-weather",
-        "title": "EismoInfo weather scraper and visualizer",
+        "title": "EismoInfo weather station log scraper",
         "projectIcon": "#ToolIcon",
-        "description": "Scrape automated weather station data, structurize it as Pandas dataframe, plot as map and analyze using Plotly",
-        "onImageClickOpenURL": "https://vepink.github.io/eismoinfo-weather/",
+        "description": "Scrape automated weather station data, structurize it as Pandas dataframe for later analysis.",
+        "onImageClickOpenURL": "",
         "sourceCodeLanguage": "PY",
         "resultEXEToolName": "",
         "resultDatasetExtension": "",
-        "resultWebsiteURL": "https://vepink.github.io/eismoinfo-weather/",
-        "tagList": ["python","tool","spatial","weather","meteo","logger","eismoinfo","eismo","info","station","log","dataframe","pandas","plotly","plot","map","surface","contour","temperature","wind","interactive"]
+        "resultWebsiteURL": "",
+        "tagList": ["python","tool","spatial","weather","meteo","logger","eismoinfo","eismo","info","station","log","dataframe","pandas"]
     },
     {
         "GithubId": "gpx-compare",
