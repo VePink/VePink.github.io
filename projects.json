@@ -12,6 +12,18 @@
         "tagList": ["3D","website","spatial","REFRAME","Cesium","JS","web","app","Javascript"]
     },
     {
+        "GithubId": "LTU_weather_report",
+        "title": "Lithuania weather visual report",
+        "projectIcon": "#ToolIcon",
+        "description": "Build visual report with maps and stats about current of past weather conditions in Lithuania.",
+        "onImageClickOpenURL": "",
+        "sourceCodeLanguage": "PY",
+        "resultEXEToolName": "",
+        "resultDatasetExtension": "PNG",
+        "resultWebsiteURL": "",
+        "tagList": ["python","tool","spatial","log","plot","pandas","dataframe","matplotlib","pyplot","plt","seaborn","sns","map","meteo","eismoinfo","weather","temperature","contour","interpolation","grid","report","visual"]
+    },
+    {
         "GithubId": "BetaMapsLt-route-saver",
         "title": "Beta.Maps.lt route saver",
         "projectIcon": "#ToolIcon",
