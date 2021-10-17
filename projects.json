@@ -19,7 +19,7 @@
         "onImageClickOpenURL": "",
         "sourceCodeLanguage": "PY",
         "resultEXEToolName": "",
-        "resultDatasetExtension": "PNG",
+        "resultDatasetExtension": "",
         "resultWebsiteURL": "",
         "tagList": ["python","tool","spatial","log","plot","pandas","dataframe","matplotlib","pyplot","plt","seaborn","sns","map","meteo","eismoinfo","weather","temperature","contour","interpolation","grid","report","visual"]
     },
