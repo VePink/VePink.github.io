@@ -60,6 +60,18 @@
         "tagList": ["python","tool","spatial","gpx","GPS","activity","track","log","tracking","plot","pandas","dataframe","matplotlib","pyplot","plotly","Cufflinks","analysis","interactive"]
     },
     {
+        "GithubId": "procedural-3D-Lazdynai",
+        "title": "procedural 3D modeling: Lazdynai",
+        "projectIcon": "#ToolIcon",
+        "description": "Procedural modeling project. CGA rules (CityEngine software) generate 3D models of common buildings in Lazdynai district.",
+        "onImageClickOpenURL": "https://skfb.ly/6v7oA",
+        "sourceCodeLanguage": "CGA",
+        "resultEXEToolName": "",
+        "resultDatasetExtension": "CGA",
+        "resultWebsiteURL": "",
+        "tagList": ["procedural","architecture","CGA","CityEngine","RPK","rule","building","Lazdynai","Vilnius","3D","Sketchfab","city","urban","spatial","modeling","SHP"]
+    },
+    {
         "GithubId": "shops-AIBE-to-KMZ",
         "title": "shops 'AIBĖ' to KMZ dataset",
         "projectIcon": "#ToolIcon",
@@ -94,17 +106,5 @@
         "resultDatasetExtension": "KML",
         "resultWebsiteURL": "",
         "tagList": ["python","tool","spatial","scraper","IKI","geocoding","KML","dataset"]
-    },
-    {
-        "GithubId": "procedural-3D-Lazdynai",
-        "title": "procedural 3D modeling: Lazdynai",
-        "projectIcon": "#ToolIcon",
-        "description": "Procedural modeling project. CGA rules (CityEngine software) generate 3D models of common buildings in Lazdynai district.",
-        "onImageClickOpenURL": "https://skfb.ly/6v7oA",
-        "sourceCodeLanguage": "CGA",
-        "resultEXEToolName": "",
-        "resultDatasetExtension": "CGA",
-        "resultWebsiteURL": "https://github.com/VePink/procedural-3D-Lazdynai/tree/main/rules_CGA",
-        "tagList": ["procedural","architecture","CGA","CityEngine","RPK","rule","building","Lazdynai","Vilnius","3D","Sketchfab","city","urban","spatial","modeling","SHP"]
     }
 ]
