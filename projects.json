@@ -1,110 +1,109 @@
-[
-    {
+[{
         "GithubId": "REFRAME",
-        "title": "REFRAME",
-        "projectIcon": "#WebsiteIcon",
-        "description": "Geographic data oriented 3D viewer for sharing digital copies of locations. Based on Cesium JS library.",
+        "title": "REFRAME 3D viewer",
+        "projectIcon": "#Website_icon",
+        "description": "Geographic data oriented 3D viewer. Based on Cesium JS library. Major revision of UI, navigation and simplicity of use",
         "onImageClickOpenURL": "https://vepink.github.io/REFRAME/",
         "sourceCodeLanguage": "JS",
         "resultEXEToolName": "",
         "resultDatasetExtension": "",
         "resultWebsiteURL": "https://vepink.github.io/REFRAME/",
-        "tagList": ["3D","website","spatial","REFRAME","Cesium","JS","web","app","Javascript"]
+        "tagList": ["3D", "website", "spatial", "REFRAME", "Cesium", "JS", "web", "app", "Javascript", "mesh", "scan", "drone", "city", "builing", "UI", "navigation", "orbit", "streetview", "jump", "design"]
     },
     {
         "GithubId": "LTU_weather_report",
-        "title": "Lithuania weather visual report",
-        "projectIcon": "#ToolIcon",
+        "title": "Lithuania weather visual report builder",
+        "projectIcon": "#Tool_icon",
         "description": "Build visual report with maps and stats about current of past weather conditions in Lithuania.",
         "onImageClickOpenURL": "",
         "sourceCodeLanguage": "PY",
         "resultEXEToolName": "",
-        "resultDatasetExtension": "",
+        "resultDatasetExtension": "PNG",
         "resultWebsiteURL": "",
-        "tagList": ["python","tool","spatial","log","plot","pandas","dataframe","matplotlib","pyplot","plt","seaborn","sns","map","meteo","eismoinfo","weather","temperature","contour","interpolation","grid","report","visual"]
+        "tagList": ["python", "tool", "spatial", "log", "plot", "pandas", "dataframe", "matplotlib", "pyplot", "plt", "seaborn", "sns", "map", "meteo", "eismoinfo", "weather", "temperature", "contour", "interpolation", "grid", "report", "visual"]
     },
     {
         "GithubId": "BetaMapsLt-route-saver",
-        "title": "Beta.Maps.lt route saver",
-        "projectIcon": "#ToolIcon",
+        "title": "Beta.Maps.lt route to dataset",
+        "projectIcon": "#Tool_icon",
         "description": "Executable tool saves navigation route planned on Beta Maps.lt as KML file.",
         "onImageClickOpenURL": "",
         "sourceCodeLanguage": "PY",
         "resultEXEToolName": "BetaMapsLt-route-saver",
         "resultDatasetExtension": "",
         "resultWebsiteURL": "",
-        "tagList": ["python","tool","spatial","Maps.lt","beta","route","Selenium","geocoding","KML","dataset","EXE","executable"]
+        "tagList": ["python", "tool", "spatial", "Maps.lt", "beta", "route", "Selenium", "geocoding", "KML", "dataset", "EXE", "executable"]
     },
     {
         "GithubId": "eismoinfo-weather",
-        "title": "EismoInfo weather station log scraper",
-        "projectIcon": "#ToolIcon",
+        "title": "EismoInfo weather station logs to structured dataset",
+        "projectIcon": "#Tool_icon",
         "description": "Scrape automated weather station data, structurize it as Pandas dataframe for later analysis.",
         "onImageClickOpenURL": "",
         "sourceCodeLanguage": "PY",
         "resultEXEToolName": "",
-        "resultDatasetExtension": "",
+        "resultDatasetExtension": "CSV",
         "resultWebsiteURL": "",
-        "tagList": ["python","tool","spatial","weather","meteo","logger","eismoinfo","eismo","info","station","log","dataframe","pandas"]
+        "tagList": ["python", "tool", "spatial", "weather", "meteo", "logger", "eismoinfo", "eismo", "info", "station", "log", "dataframe", "pandas"]
     },
     {
         "GithubId": "gpx-compare",
-        "title": "Compare activity timelines (.gpx)",
-        "projectIcon": "#ToolIcon",
+        "title": "Compare activity timelines",
+        "projectIcon": "#Tool_icon",
         "description": "Import .gpx, structurize, plot and analyze GPS logs, compare activity metrics.",
         "onImageClickOpenURL": "https://vepink.github.io/gpx-compare/",
         "sourceCodeLanguage": "PY",
         "resultEXEToolName": "",
         "resultDatasetExtension": "",
         "resultWebsiteURL": "https://vepink.github.io/gpx-compare/",
-        "tagList": ["python","tool","spatial","gpx","GPS","activity","track","log","tracking","plot","pandas","dataframe","matplotlib","pyplot","plotly","Cufflinks","analysis","interactive"]
+        "tagList": ["python", "tool", "spatial", "gpx", "GPS", "activity", "track", "log", "tracking", "plot", "pandas", "dataframe", "matplotlib", "pyplot", "plotly", "Cufflinks", "analysis", "interactive"]
     },
     {
         "GithubId": "procedural-3D-Lazdynai",
-        "title": "procedural 3D modeling: Lazdynai",
-        "projectIcon": "#ToolIcon",
+        "title": "Procedural 3D modeling: Lazdynai",
+        "projectIcon": "#Tool_icon",
         "description": "Procedural modeling project. CGA rules (CityEngine software) generate 3D models of common buildings in Lazdynai district.",
         "onImageClickOpenURL": "https://skfb.ly/6v7oA",
         "sourceCodeLanguage": "CGA",
         "resultEXEToolName": "",
-        "resultDatasetExtension": "",
+        "resultDatasetExtension": "CGA",
         "resultWebsiteURL": "",
-        "tagList": ["procedural","architecture","CGA","CityEngine","RPK","rule","building","Lazdynai","Vilnius","3D","Sketchfab","city","urban","spatial","modeling","SHP"]
+        "tagList": ["procedural", "architecture", "CGA", "CityEngine", "RPK", "rule", "building", "Lazdynai", "Vilnius", "3D", "Sketchfab", "city", "urban", "spatial", "modeling", "SHP"]
     },
     {
         "GithubId": "shops-AIBE-to-KMZ",
-        "title": "shops 'AIBĖ' to KMZ dataset",
-        "projectIcon": "#ToolIcon",
+        "title": "'AIBĖ' shop addresses to dataset",
+        "projectIcon": "#Tool_icon",
         "description": "Python tool gets geographic locations and properties of 'AIBĖ' shops from website and saves them as KMZ dataset.",
         "onImageClickOpenURL": "",
         "sourceCodeLanguage": "PY",
         "resultEXEToolName": "",
-        "resultDatasetExtension": "KML",
+        "resultDatasetExtension": "KMZ",
         "resultWebsiteURL": "",
-        "tagList": ["python","tool","spatial","scraper","AIBE","Aibė","geocoding","KML","KMZ","ZIP","dataset"]
+        "tagList": ["python", "tool", "spatial", "scraper", "AIBE", "Aibė", "geocoding", "KML", "KMZ", "ZIP", "dataset"]
     },
     {
         "GithubId": "shops-BP-to-KMZ",
-        "title": "shops 'Baltic Petroleum' to KMZ dataset",
-        "projectIcon": "#ToolIcon",
+        "title": "'Baltic Petroleum' shop addresses to dataset",
+        "projectIcon": "#Tool_icon",
         "description": "Python tool gets geographic locations and properties of 'Baltic Petroleum' gas stations shops from website and saves them as KMZ dataset.",
         "onImageClickOpenURL": "",
         "sourceCodeLanguage": "PY",
         "resultEXEToolName": "",
-        "resultDatasetExtension": "KML",
+        "resultDatasetExtension": "KMZ",
         "resultWebsiteURL": "",
-        "tagList": ["python","tool","spatial","scraper","Baltic","Petroleum","BP","geocoding","KML","dataset"]
+        "tagList": ["python", "tool", "spatial", "scraper", "Baltic", "Petroleum", "BP", "geocoding", "KML", "dataset"]
     },
     {
         "GithubId": "shops-IKI-to-KMZ",
-        "title": "shops 'IKI' to KMZ dataset",
-        "projectIcon": "#ToolIcon",
+        "title": "'IKI' shop addresses to dataset",
+        "projectIcon": "#Tool_icon",
         "description": "Python tool gets geographic locations and properties of 'IKI' shops from website and saves them as KMZ dataset.",
         "onImageClickOpenURL": "",
         "sourceCodeLanguage": "PY",
         "resultEXEToolName": "",
-        "resultDatasetExtension": "KML",
+        "resultDatasetExtension": "KMZ",
         "resultWebsiteURL": "",
-        "tagList": ["python","tool","spatial","scraper","IKI","geocoding","KML","dataset"]
+        "tagList": ["python", "tool", "spatial", "scraper", "IKI", "geocoding", "KML", "dataset"]
     }
 ]
