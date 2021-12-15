@@ -1,16 +1,4 @@
 [{
-        "GithubId": "REFRAME",
-        "title": "REFRAME 3D viewer",
-        "projectIcon": "#Website_icon",
-        "description": "Geographic data oriented 3D viewer. Based on Cesium JS library. Major revision of UI, navigation and simplicity of use",
-        "onImageClickOpenURL": "https://vepink.github.io/REFRAME/",
-        "sourceCodeLanguage": "JS",
-        "resultEXEToolName": "",
-        "resultDatasetExtension": "",
-        "resultWebsiteURL": "https://vepink.github.io/REFRAME/",
-        "tagList": ["3D", "website", "spatial", "REFRAME", "Cesium", "JS", "web", "app", "Javascript", "mesh", "scan", "drone", "city", "builing", "UI", "navigation", "orbit", "streetview", "jump", "design"]
-    },
-    {
         "GithubId": "LTU_weather_report",
         "title": "Lithuania weather visual report builder",
         "projectIcon": "#Tool_icon",
